@@ -2,7 +2,7 @@
 theme: none
 layout: cover
 company: COMPANY NAME
-date: 00.00.2000
+date: 12.05.2021
 ---
 # PRESENTATION COVER TITLE
 ## Insert the sub title of your presentation
@@ -47,7 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 ---
-
+layout: content-2
+---
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel
@@ -62,7 +63,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | next slide |
 
 ---
-layout: image-right
+layout: image-side
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
