@@ -87,6 +87,7 @@
 .slidev-layout.section-1,
 .slidev-layout.section-2,
 .slidev-layout.content-1,
+.slidev-layout.end,
 .slidev-layout.intro{
   @apply h-full grid;
 
@@ -107,6 +108,16 @@
   .block{
     max-width: 600px;
     margin: auto auto;
+  }
+}
+.slidev-layout.end {
+  background-image: url(../images/backgrounds/end.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .block{
+    max-width: 400px;
+    margin: auto 200px;
   }
 }
 .slidev-layout.section-2 {

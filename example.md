@@ -88,7 +88,8 @@ function updateUser(id: number, update: Partial<User>) {
 layout: end
 ---
 
-# Navigation
+# Thanks !
 
-Hover on the bottom-left corner to see the navigation's controls panel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet eu mi quis lacinia
+
 
