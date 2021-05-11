@@ -84,7 +84,8 @@
 }
 
 .slidev-layout.cover,
-.slidev-layout.section,
+.slidev-layout.section-1,
+.slidev-layout.section-2,
 .slidev-layout.content-1,
 .slidev-layout.intro{
   @apply h-full grid;
@@ -98,8 +99,8 @@
   }
 }
 
-.slidev-layout.section {
-  background-image: url(../images/backgrounds/section.svg);
+.slidev-layout.section-1 {
+  background-image: url(../images/backgrounds/section-1.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -107,6 +108,16 @@
     max-width: 600px;
     margin: auto auto;
   }
+}
+.slidev-layout.section-2 {
+  background-image: url(../images/backgrounds/section-2.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+.block{
+  max-width: 600px;
+  margin: 50px auto;
+}
 }
 .slidev-layout.content-1 {
   background-image: url(../images/backgrounds/content-1.svg);
@@ -153,7 +164,7 @@ p {
   letter-spacing: -0.02em;
 }
 .date{
-  background: #222329;
+  background: #393A34;
   border-radius: 44px;
   font-size: 24px;
   padding: 1px 32px;
@@ -161,7 +172,7 @@ p {
 .logo{
   width: 33px;
   height: 33px;
-  background: #222329;
+  background: #393A34;
   border-radius: 69px;
 }
 .company{

@@ -29,8 +29,16 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
-layout: section
-class: ""
+layout: section-1
+---
+
+# SECTION BREAK SLIDE TITLE
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+---
+layout: section-2
 ---
 
 # SECTION BREAK SLIDE TITLE
@@ -76,5 +84,11 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
+---
+layout: end
+---
 
+# Navigation
+
+Hover on the bottom-left corner to see the navigation's controls panel
 
