@@ -1,23 +1,20 @@
 ---
 theme: none
+layout: cover
+company: COMPANY NAME
+date: 00.00.2000
 ---
-
-# Slidev Theme Starter
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+# PRESENTATION COVER TITLE
+## Insert the sub title of your presentation
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
 ---
-
+layout: content-1
+---
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
-  
+
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
@@ -31,7 +28,16 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
+---
+layout: section
+class: ""
+---
 
+# SECTION BREAK SLIDE TITLE
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 ---
 
 # Navigation
@@ -71,11 +77,4 @@ function updateUser(id: number, update: Partial<User>) {
 }
 ```
 
----
-layout: center
-class: "text-center"
----
 
-# Learn More
-
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)

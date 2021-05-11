@@ -84,7 +84,9 @@
 }
 
 .slidev-layout.cover,
-.slidev-layout.intro {
+.slidev-layout.section,
+.slidev-layout.content-1,
+.slidev-layout.intro{
   @apply h-full grid;
 
   h1 {
@@ -94,4 +96,78 @@
   h1 + p {
     @apply opacity-40 -mt-4 text-2xl;
   }
+}
+
+.slidev-layout.section {
+  background-image: url(../images/backgrounds/section.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .block{
+    max-width: 600px;
+    margin: auto auto;
+  }
+}
+.slidev-layout.content-1 {
+  background-image: url(../images/backgrounds/content-1.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  .block{
+    max-width: 827px;
+  }
+}
+.slidev-layout.cover {
+  background-image: url(../images/backgrounds/cover.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+.block {
+  max-width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, .date, .company {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 77px;
+  line-height: 80%;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+.date{
+  background: #222329;
+  border-radius: 44px;
+  font-size: 24px;
+  padding: 1px 32px;
+}
+.logo{
+  width: 33px;
+  height: 33px;
+  background: #222329;
+  border-radius: 69px;
+}
+.company{
+  font-size: 28px;
+}
+.company-block{
+  display: flex;
+}
 }
