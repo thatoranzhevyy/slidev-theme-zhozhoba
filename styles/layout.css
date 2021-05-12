@@ -1,229 +1,239 @@
 .slidev-layout {
-  @apply px-14 py-10 text-[1.1rem];
 
-  h1, h2, h3, h4, p, div {
-    @apply select-none;
-  }
+    @apply h-full grid font-bold select-none;
 
-  pre, code {
+    @apply px-14 py-10 text-[1.1rem];
+
+pre, code {
     @apply select-text;
-  }
-
-  h1 {
-    @apply text-4xl mb-4 -ml-[0.05em];
-  }
-
-  h2 {
-    @apply text-3xl;
-  }
-
-  h3 {
-    @apply text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em];
-  }
-
-  h3:not(.opacity-100) {
-    @apply opacity-40;
-  }
-
-  p {
-    @apply my-4 leading-6;
-  }
-
-  h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
-  }
-
-  p + h2, ul + h2, table + h2 {
-    @apply mt-10;
-  }
-
-  ul {
-    list-style: square;
-  }
-
-  li {
-    @apply ml-1.1em pl-0.2em leading-1.8em;
-  }
-
-  blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-primary border-left rounded;
-  }
-
-  blockquote > * {
-    @apply my-0;
-  }
-
-  table {
-    @apply w-full;
-  }
-
-  tr {
-    @apply border-b border-gray-400 border-opacity-20;
-  }
-
-  th {
-    @apply text-left font-400;
-  }
-
-  a {
-    @apply border-current border-b border-dashed hover:(text-primary border-solid);
-  }
-
-  td, th {
-    @apply p-2 py-3;
-  }
-
-  b, strong {
-    @apply font-600;
-  }
-
-  kbd {
-    @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
-    @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
-  }
-}
-
-.slidev-layout.cover,
-.slidev-layout.section-1,
-.slidev-layout.section-2,
-.slidev-layout.content-1,
-.slidev-layout.content-2,
-.slidev-layout.image,
-.slidev-layout.end,
-.slidev-layout.intro{
-  @apply h-full grid;
-
-  h1 {
-    @apply text-6xl leading-20;
-  }
-
-  h1 + p {
-    @apply opacity-40 -mt-4 text-2xl;
-  }
-}
-
-.slidev-layout.image{
-  background-image: url(../images/backgrounds/image-1.svg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: contain;
-.block{
-  max-width: 50%;
-  position: absolute;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  right: 60px;
-  bottom: 60px;
-}
-.image{
-  width: 50%;
-  height: 100%;
-  display: inline-block;
-}
-}
-.slidev-layout.section-1 {
-  background-image: url(../images/backgrounds/section-1.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  .block{
-    max-width: 600px;
-    margin: auto auto;
-  }
-}
-.slidev-layout.end {
-  background-image: url(../images/backgrounds/end.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  .block{
-    max-width: 400px;
-    margin: auto 200px;
-  }
-}
-.slidev-layout.section-2 {
-  background-image: url(../images/backgrounds/section-2.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-.block{
-  max-width: 600px;
-  margin: 50px auto;
-}
-}
-.slidev-layout.content-1 {
-  background-image: url(../images/backgrounds/content-1.svg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: contain;
-.block{
-  max-width: 827px;
-}
-}
-.slidev-layout.content-2 {
-  background-image: url(../images/backgrounds/content-2.svg);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: contain;
-.block{
-  max-width: 827px;
-}
-}
-.slidev-layout.cover {
-  background-image: url(../images/backgrounds/cover.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-.block {
-  max-width: 60%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-h1, h2, .date, .company {
-  font-weight: bold;
 }
 
 h1 {
-  font-size: 77px;
-  line-height: 80%;
-  letter-spacing: 0.01em;
+    @apply text-6xl mb-4 -ml-[0.05em]  leading-20;
+    font-size: 77px;
+    line-height: 80%;
+    letter-spacing: 0.01em;
 }
 
-h2 {
-  font-style: normal;
-  font-size: 24px;
-  line-height: 56px;
-  letter-spacing: -0.02em;
+h1 + p {
+    @apply opacity-40 -mt-4 text-2xl;
+}
+
+h5 {
+    @apply text-3xl;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    @apply text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em];
+}
+
+h3:not(.opacity-100) {
+    @apply opacity-40;
 }
 
 p {
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: -0.02em;
+    @apply my-4 leading-6;
 }
+
+h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+}
+
+p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    @apply ml-1.1em pl-0.2em leading-1.8em;
+}
+
+blockquote {
+    @apply text-sm px-2 py-1 bg-$prism-background border-primary border-left rounded;
+}
+
+blockquote > * {
+    @apply my-0;
+}
+
+table {
+    @apply w-full;
+}
+
+tr {
+    @apply border-b border-gray-400 border-opacity-20;
+}
+
+th {
+    @apply text-left font-400;
+}
+
+a {
+    @apply border-current border-b border-dashed hover:(text-primary border-solid);
+}
+
+td, th {
+    @apply p-2 py-3;
+}
+
+b, strong {
+    @apply font-600;
+}
+
+kbd {
+    @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
+    @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-sm font-mono;
+}
+
+}
+
+.slidev-layout.image {
+    background-image: url(../images/backgrounds/image-1.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+.block {
+    max-width: 55%;
+    position: absolute;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    right: 60px;
+    bottom: 60px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.image-contaier {
+    width: 45%;
+    height: 100%;
+}
+
+}
+.slidev-layout.section-1 {
+    background-image: url(../images/backgrounds/section-1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+h1 {
+    font-size: 56px;
+}
+
+.block {
+    max-width: 600px;
+    margin: auto auto;
+}
+
+}
+.slidev-layout.end {
+    background-image: url(../images/backgrounds/end.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+.block {
+    max-width: 400px;
+    margin: auto 200px;
+}
+
+}
+.slidev-layout.section-2 {
+    background-image: url(../images/backgrounds/section-2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+h1 {
+    font-size: 56px;
+}
+
+.block {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+}
+.slidev-layout.content-1 {
+    background-image: url(../images/backgrounds/content-1.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+h1 {
+    font-size: 56px;
+}
+
+.block {
+    max-width: 827px;
+}
+
+}
+.slidev-layout.content-2 {
+    background-image: url(../images/backgrounds/content-2.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+h1 {
+    font-size: 56px;
+}
+
+.block {
+    max-width: 827px;
+}
+
+}
+.slidev-layout.cover {
+    background-image: url(../images/backgrounds/cover.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+.block {
+    max-width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .date {
-  color: rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
 }
-.date{
-  background: #393A34;
-  border-radius: 44px;
-  font-size: 24px;
-  padding: 1px 32px;
+
+.date {
+    background: #393A34;
+    border-radius: 44px;
+    font-size: 24px;
+    padding: 1px 32px;
 }
-.logo{
-  width: 33px;
-  height: 33px;
-  background: #393A34;
-  border-radius: 69px;
+
+.logo {
+    width: 33px;
+    height: 33px;
+    background: #393A34;
+    border-radius: 69px;
 }
-.company{
-  font-size: 28px;
+
+.company {
+    font-size: 28px;
 }
-.company-block{
-  display: flex;
+
+.company-block {
+    display: flex;
 }
+
 }

@@ -9,8 +9,9 @@ const props = defineProps({
 </script>
 <template>
   <div class="slidev-layout image">
-
-    <img class="image" :src="props.image">
+    <div class="image-contaier">
+      <img class="image-item" :src="props.image">
+    </div>
     <div class="pl-40 my-auto w-full block">
       <slot/>
     </div>

@@ -5,28 +5,27 @@ company: COMPANY NAME
 date: 12.05.2021
 ---
 # PRESENTATION COVER TITLE
-## Insert the sub title of your presentation
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+##### Insert the sub title of your presentation
+### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
 ---
 layout: content-1
 ---
-# What is Slidev?
+# Content
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Content subtitle
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- Content bullet text
+- Content bullet text
+- Content bullet text
+- Content bullet text
+- Content bullet text
+- Content bullet text
 
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+Some text with [link](#)
 
 ---
 layout: section-1
@@ -34,7 +33,7 @@ layout: section-1
 
 # SECTION BREAK SLIDE TITLE
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Section break slide text
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 ---
@@ -43,33 +42,33 @@ layout: section-2
 
 # SECTION BREAK SLIDE TITLE
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Section break slide text
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
 ---
 layout: content-2
 ---
-# Navigation
+# TABLE
 
-Hover on the bottom-left corner to see the navigation's controls panel
+Table text
 
-### Keyboard Shortcuts
+### Table description
 
 |     |     |
 | --- | --- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
-| <kbd>left</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+| <kbd>item kbd</kbd> / <kbd>item kbd</kbd> / <kbd>item kbd</kbd> | row text, row text, row text, row text |
+| <kbd>item kbd</kbd> | row text |
+| <kbd>item kbd</kbd> | previous slide |
+| <kbd>item kbd</kbd> | next slide |
 
 ---
 layout: image-side
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
 ---
 
-# Code
+# CODE EXAMPLE
 
-Use code snippets and get the highlighting directly!
+Code description
 
 ```ts
 interface User {
@@ -85,12 +84,11 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
+
 ---
 layout: end
 ---
 
-# Thanks !
+# Thanks!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet eu mi quis lacinia
-
-
+Some text
