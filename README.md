@@ -2,7 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-zhozhoba?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-zhozhoba)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A zhozhoba theme for [Slidev](https://github.com/slidevjs/slidev).
+
 
 <!--
 run `npm run dev` to check out the slides for more details of how to start writing a theme
@@ -34,11 +35,93 @@ This theme provides the following layouts:
 Usage: 
 ```
 ---
+theme: zhozhoba
 layout: cover
+company: COMPANY NAME (optional)
+date: 12.05.2021 (optional)
 ---
 ```
 <div align="center">
-  <img src="./slides-export/1.png" alt="cover">
+  <img src="./slides-export/01.png" alt="cover">
+</div>
+
+---
+
+### Content-1
+Usage: 
+```
+---
+layout: content-1
+---
+```
+<div align="center">
+  <img src="./slides-export/02.png" alt="content-1">
+</div>
+
+---
+
+### Section-1
+Usage: 
+```
+---
+layout: section-1
+---
+```
+<div align="center">
+  <img src="./slides-export/03.png" alt="section-1">
+</div>
+
+---
+
+### Section-2
+Usage: 
+```
+---
+layout: section-2
+---
+```
+<div align="center">
+  <img src="./slides-export/04.png" alt="section-2">
+</div>
+
+---
+
+### Content-2
+Usage: 
+```
+---
+layout: content-2
+---
+```
+<div align="center">
+  <img src="./slides-export/05.png" alt="content-2">
+</div>
+
+---
+
+### Image
+Usage: 
+```
+---
+layout: image-side
+image: 'image-url'
+---
+```
+<div align="center">
+  <img src="./slides-export/06.png" alt="image">
+</div>
+
+---
+
+### End
+Usage: 
+```
+---
+layout: end
+---
+```
+<div align="center">
+  <img src="./slides-export/07.png" alt="end">
 </div>
 
 ---
