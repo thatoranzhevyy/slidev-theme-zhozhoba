@@ -4,6 +4,11 @@
 
 A zhozhoba theme for [Slidev](https://github.com/slidevjs/slidev).
 
+This theme is inspired by the Basic Black/White theme:
+light theme            |  dark theme
+:-------------------------:|:-------------------------:
+![light](./light.png)  |  ![dark](./dark.png)
+
 
 <!--
 run `npm run dev` to check out the slides for more details of how to start writing a theme
