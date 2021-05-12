@@ -95,7 +95,7 @@ kbd {
 }
 
 .slidev-layout.image {
-    background-image: url(../images/backgrounds/image-1.svg);
+    background-image: url(../backgrounds/image-1.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: contain;
@@ -123,7 +123,7 @@ img {
 
 }
 .slidev-layout.section-1 {
-    background-image: url(../images/backgrounds/section-1.svg);
+    background-image: url(../backgrounds/section-1.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -139,7 +139,7 @@ h1 {
 
 }
 .slidev-layout.end {
-    background-image: url(../images/backgrounds/end.svg);
+    background-image: url(../backgrounds/end.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -151,7 +151,7 @@ h1 {
 
 }
 .slidev-layout.section-2 {
-    background-image: url(../images/backgrounds/section-2.svg);
+    background-image: url(../backgrounds/section-2.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -167,7 +167,7 @@ h1 {
 
 }
 .slidev-layout.content-1 {
-    background-image: url(../images/backgrounds/content-1.svg);
+    background-image: url(../backgrounds/content-1.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: contain;
@@ -182,7 +182,7 @@ h1 {
 
 }
 .slidev-layout.content-2 {
-    background-image: url(../images/backgrounds/content-2.svg);
+    background-image: url(../backgrounds/content-2.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: contain;
@@ -197,7 +197,7 @@ h1 {
 
 }
 .slidev-layout.cover {
-    background-image: url(../images/backgrounds/cover.svg);
+    background-image: url(../backgrounds/cover.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
