@@ -29,14 +29,20 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ## Layouts
 
 This theme provides the following layouts:
+---
+### Cover
+Usage: 
+```
+---
+layout: cover
+---
+```
+<div align="center">
+  <img src="./slides-export/1.png" alt="cover">
+</div>
 
-> TODO:
+---
 
-## Components
-
-This theme provides the following components:
-
-> TODO:
 
 ## Contributing
 
