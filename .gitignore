@@ -5,3 +5,5 @@ dist
 index.html
 .remote-assets
 .idea
+/package-lock.json
+/pnpm-lock.yaml

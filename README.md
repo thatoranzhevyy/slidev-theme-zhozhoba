@@ -7,7 +7,7 @@ A zhozhoba theme for [Slidev](https://github.com/slidevjs/slidev).
 This theme is inspired by the Basic Black/White theme:
 light theme            |  dark theme
 :-------------------------:|:-------------------------:
-![light](./light.png)  |  ![dark](./dark.png)
+![light](.github/light.png)  |  ![dark](.github/dark.png)
 
 
 <!--
